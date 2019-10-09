@@ -16,20 +16,20 @@ otherHead[1].style.backgroundColor = 'green';
 otherHead[2].style.backgroundColor = 'green';
 
 const paragraph = document.querySelectorAll('p');
-paragraph[0].style.color = 'lightgreen';
-paragraph[1].style.color = 'lightgreen';
-paragraph[2].style.color = 'lightgreen';
-paragraph[0].style.backgroundColor = 'darkgrey';
-paragraph[1].style.backgroundColor = 'darkgrey';
-paragraph[2].style.backgroundColor = 'darkgrey';
+paragraph[0].style.color = 'lightGreen';
+paragraph[1].style.color = 'lightGreen';
+paragraph[2].style.color = 'lightGreen';
+paragraph[0].style.backgroundColor = 'darkGrey';
+paragraph[1].style.backgroundColor = 'darkGrey';
+paragraph[2].style.backgroundColor = 'darkGrey';
 
 const uList = document.querySelector('ul');
-uList.style.color = 'darkgreen';
+uList.style.color = 'darkGreen';
 uList.style.fontSize = '24px';
-uList.style.backgroundColor = 'lightgrey';
+uList.style.backgroundColor = 'lightGrey';
 
 const oList = document.querySelector('ol');
-oList.style.color = 'yellowgreen';
+oList.style.color = 'yellowGreen';
 oList.style.backgroundColor = 'silver';
 oList.style.fontSize = '24px';
 
@@ -41,4 +41,7 @@ const txtArea = document.querySelector('textarea');
 txtArea.style.color = 'purple';
 txtArea.style.fontSize = '50px';
 txtArea.style.backgroundColor = 'orange';
-txtArea.style.textShadow = '20px';
+txtArea.style.textShadow = '20px 12px 12px';
+
+const bButton = document.querySelector('button');
+bButton.style.backgroundColor = 'pink';
